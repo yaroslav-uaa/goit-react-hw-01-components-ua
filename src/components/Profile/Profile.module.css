@@ -1,0 +1,39 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  border: 1px solid;
+  border-color: black;
+  background-color: white;
+}
+.avatar {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+}
+.tag,
+.location {
+  color: grey;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: grey;
+}
+
+.quantity {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
