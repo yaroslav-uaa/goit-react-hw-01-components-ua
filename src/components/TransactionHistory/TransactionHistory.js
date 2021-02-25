@@ -27,5 +27,6 @@ const TransactionHistory = ({ items }) => {
 export default TransactionHistory;
 
 TransactionHistory.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.sdsdstring,
+  ssd,
 };
