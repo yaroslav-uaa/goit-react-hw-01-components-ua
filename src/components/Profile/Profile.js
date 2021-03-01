@@ -31,7 +31,7 @@ const Profile = ({avatar, name,tag,location,stats}) => {
 }
 export default Profile;
 
-Profile.defaultProps = {
+Profile123.defaultProps = {
   avatar: 'https://www.kinonews.ru/insimgs/poster/poster9623_1.jpg',
 };
 
