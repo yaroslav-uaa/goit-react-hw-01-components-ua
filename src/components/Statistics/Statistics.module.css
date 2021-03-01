@@ -2,13 +2,16 @@
   background-color: green;
   text-align: center;
 }
+.title {
+  background-color: white;
+}
 
 .statList {
   display: flex;
-  width: 200px;
-  justify-content: space-between;
+  width: 300px;
 }
 
 .statistics li {
   border: 1px solid;
+  width: calc(100% / 5);
 }

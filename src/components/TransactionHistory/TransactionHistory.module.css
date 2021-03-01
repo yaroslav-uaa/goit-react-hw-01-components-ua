@@ -1,8 +1,12 @@
 .table_history {
   width: 300px;
   text-align: left;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 th {
-  border: 1px solid;
+  border: 1px solid silver;
+}
+thead {
+  color: white;
+  background-color: aqua;
 }
