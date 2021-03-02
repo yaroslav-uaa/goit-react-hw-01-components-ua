@@ -1,5 +1,5 @@
-import s from "./Profile.module.css";
 import PropTypes from "prop-types";
+import s from "./Profile.module.css";
 
 
 const Profile = ({avatar, name,tag,location,stats}) => {
@@ -31,7 +31,7 @@ const Profile = ({avatar, name,tag,location,stats}) => {
 }
 export default Profile;
 
-Profile123.defaultProps = {
+Profile.defaultProps = {
   avatar: 'https://www.kinonews.ru/insimgs/poster/poster9623_1.jpg',
 };
 
